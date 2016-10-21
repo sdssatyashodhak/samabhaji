@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="datepicker.css">
+<script src="main.js"></script>
+<script src="bootstrap-datepicker.js"></script>
+<script>
+$(function(){
+$('.datepicker').datepicker();
+});
+</script>
+<style>
+.mg{
+font-size:18px;
+}
+.a{
+color:red;
+}
+pre{
+border:2px solid black;
+margin:0px 100px 0px 100px;
+}
+img{
+float:top;
+}
+.ln{
+font-size:25px;
+color:#0000ff;
+}
+.z{
+font-size:14px;
+color:red;
+}
+</style>
+</head>
+<body>
+<img src="images/logo.gif" width="1350" height="250">
+<pre class="mg"><div style="margin-left:30px;margin-right:20px;">
+<form action="connectreg.php" method="POST">
+Id  No.         <input type="text" name="id" required="" style="width:300px;height:35px;">
+
+Name            <input type="text" name="fullname" style="width:300px;height:35px;">
+
+Password        <input type="Password" name="Password" style="width:300px;height:35px;">
+
+<span style="margin-left:35px;"><input type="submit" name="submit" id="submit" value="Submit"style="width:150px;height:30px;"></a>
+</form></div>
+</pre>
+</body>
+</html>
